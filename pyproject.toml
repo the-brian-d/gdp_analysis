@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gdp-analysis"
+version = "0.1.0"
+description = "D100 Exercise 2 - Modular GDP analysis"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas",
+    "requests",
+    "matplotlib",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
